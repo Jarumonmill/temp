@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+}
+.menu {
+    display: none;
+}
+
+
+</style>
+
+<body class=" w3-pale-red">
+
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-padding w3-card" style="letter-spacing:2px;">
+
+    <a href="#home" class="w3-bar-item w3-button">MADAMMILL<img class="w3-image" src="mai.jpg" alt="Fashion Blog" width="30" height="20"></a>
+    <!-- Navigation bar with social media icons -->
+            <a href="#" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+            <a href="#" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+            <a href="#" class="w3-bar-item w3-button"><i class="fa fa-snapchat"></i></a>
+            <a href="#" class="w3-bar-item w3-button"><i class="fa fa-flickr"></i></a>
+            <a href="#" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
+            <a href="#" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
+            <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+      <div class="w3-right w3-hide-small">
+      <a href="#about me" class="w3-bar-item w3-button"><i class="fa fa-user">About Me</i></a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope">Contact</i></a>
+
+      <div class="w3-dropdown-hover w3-hide-small">
+              <button class="w3-button" title="More"><i class="fa fa-book ">Story</i> <i class="fa fa-caret-down"></i></button>
+              <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <a href="file:///C:/Users/5910513048/Desktop/teampage/story1.html" class="w3-bar-item w3-button">Story 1</a>
+                <a href="file:///C:/Users/5910513048/Desktop/teampage/story2.html" class="w3-bar-item w3-button">Story 2</a>
+                <a href="#" class="w3-bar-item w3-button">Story 3</a>
+                <a href="#" class="w3-bar-item w3-button">Story 4</a>
+              </div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+      <div class="w3-dropdown-hover w3-hide-small">
+        <button class="w3-padding-large w3-button" title="More">STORY <i class="fa fa-caret-down "></i></button>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="file:///C:/Users/5910513048/Desktop/projectteam/story1.html" class="w3-bar-item w3-button">story1</a>
+        <a href="file:///C:/Users/5910513048/Desktop/projectteam/story2.html" class="w3-bar-item w3-button">story2</a>
+        <a href="#" class="w3-bar-item w3-button">story3</a></div>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope">Contact</i></a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<!-- Image header -->
+<header class="w3-display-container w3-wide" id="home">
+  <img class="w3-image" src="hu.jpg" alt="Fashion Blog" width="1600" height="1060">
+  <div class="w3-display-left w3-padding-large">
+
+    <h1 class="w3-jumbo w3-text-pale-red w3-hide-small"><b></b></h1>
+
+      <h3><button class="w3-button w3-white w3-padding-large w3-large  w3-pale-red w3-hover-opacity-off w3-center" onclick="document.getElementById('subscribe').style.display='block'">SUBSCRIBE</button></h3>
+  </div>
+</header>
+
+
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+
+
+  <!-- About Section -->
+
+  <div class="w3-container  w3-padding-64 w3-white w3-center w3-wide" id="about me">
+    <div class="w3-content" style="max-width:2100px">
+      <h2 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">ABOUT ME</span></h2>
+
+      <div class="w3-row w3-center w3-card w3-padding">
+        <a href="javascript:void(0)" onclick="openMenu(event, 'Mama');" id="myLink">
+          <div class="w3-col s6 tablink">Mama</div>
+        </a>
+        <a href="javascript:void(0)" onclick="openMenu(event, 'Mill');">
+          <div class="w3-col s6 tablink">Mill</div>
+        </a>
+      </div>
+
+      <div id="Mama" class="w3-container menu w3-padding-48 w3-card">
+        <img class="w3-image" src="na.jpg" alt="Fashion Blog" width="1600" height="1060">
+
+      </div>
+
+      <div id="Mill" class="w3-container menu w3-padding-48 w3-card">
+        <img class="w3-image" src="nana.jpg" alt="Fashion Blog" width="1600" height="1060">
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Story Section -->
+
+  <div class="w3-row w3-padding-64" id="story">
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h2 class="w3-padding-48"><span class="w3-tag w3-wide">STORY</span></h2><br>
+          <h3>Story 1</h3>
+          <h5>Title description, <span class="w3-opacity">May 2, 2016</span></h5>
+        </div>
+        <div class="polaroid ">
+          <img class="w3-image" src="psu3.jpg" alt="Fashion Blog" width="1600" height="1060">
+      </div>
+
+        <div class="w3-justify">
+
+          <article>
+            <h3>What Does WWF Do?</h3>
+            <p>WWF's mission is to stop the degradation of our planet's natural environment, and build a future in which humans live in harmony with nature.</p>
+          </article>
+
+
+          <p><strong>More Hats!</strong> I am crazy about hats these days. Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor
+            magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies  </b> <span class="w3-tag w3-white">1</span></button></p>
+          <p class="w3-clear"></p>
+          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+              <div class="w3-col l2 m3">
+              </div>
+              <div class="w3-col l10 m9">
+              </div>
+          </div>
+        </div>
+      </div>
+
+    <hr>
+  <div class="w3-container w3-white w3-margin w3-padding-large">
+    <div class="w3-center">
+      <h3>Story 2</h3>
+      <h5>Title description, <span class="w3-opacity">April 23, 2016</span></h5>
+    </div>
+
+<div class="polaroid">
+    <img class="w3-image" src="psu1.jpg" alt="Fashion Blog" width="1600" height="1060">
+</div>
+    <div class="w3-justify">
+
+      <p><strong>Hats!</strong> The trend this summer is hats for men!</p>
+      <p>Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies
+        mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+      <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo2')"><b>Replies  </b> <span class="w3-tag w3-white">2</span></button></p>
+      <p class="w3-clear"></p>
+
+      <!-- Example of comment field -->
+      <div id="Story2" style="display:none">
+        <div class="w3-row">
+          <hr>
+          <div class="w3-col l2 m3">
+            <img src="/w3images/girl_train.jpg" style="width:90px;">
+          </div>
+          <div class="w3-col l10 m9">
+            <h4>Amber <span class="w3-opacity w3-medium">April 26, 2015, 10:52 PM</span></h4>
+            <p>Love your blog page! Simply the best! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><br>
+          </div>
+        </div>
+        <div class="w3-row w3-margin-bottom">
+          <div class="w3-col l2 m3">
+            <img src="/w3images/girl.jpg" style="width:90px;">
+          </div>
+          <div class="w3-col l10 m9">
+            <h4>Angie <span class="w3-opacity w3-medium">April 23, 2015, 9:12 PM</span></h4>
+            <p>Love hats!!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="w3-container w3-white w3-margin w3-padding-large">
+    <div class="w3-center">
+      <h3>Story 3</h3>
+
+      <h5>Title description, <span class="w3-opacity">April 7, 2016</span></h5>
+    </div>
+<div class="polaroid">
+    <img class="w3-image" src="psu4.jpg" alt="Fashion Blog" width="1600" height="1060">
+</div>
+    <div class="w3-justify">
+
+      <p><strong>Dont miss!</strong> The runway in New York City this weekend is gonna be legendary!</p>
+      <p>Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies
+        mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+      <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo3')"><b>Replies  </b> <span class="w3-tag w3-white">3</span></button></p>
+      <p class="w3-clear"></p>
+
+      <!-- Example of comment field -->
+      <div id="demo3" style="display:none">
+        <hr>
+        <div class="w3-row w3-margin-bottom">
+          <div class="w3-col l2 m3">
+            <img src="/w3images/girl_mountain.jpg"alt="mountain" width="1600" height="1060">
+          </div>
+          <div class="w3-col l10 m9">
+            <h4>Jane <span class="w3-opacity w3-medium">April 10, 2015, 7:22 PM</span></h4>
+            <p>That was a great runway show! Thanks for everything.</p>
+          </div>
+        </div>
+        <div class="w3-row w3-margin-bottom">
+          <div class="w3-col l2 m3">
+            <img src="/w3images/boy.jpg" style="width:90px;">
+          </div>
+          <div class="w3-col l10 m9">
+            <h4>John <span class="w3-opacity w3-medium">April 8, 2015, 10:32 PM</span></h4>
+            <p>Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+          </div>
+        </div>
+        <div class="w3-row w3-margin-bottom">
+          <div class="w3-col l2 m3">
+            <img src="/w3images/girl_hood.jpg" style="width:90px;">
+          </div>
+          <div class="w3-col l10 m9">
+            <h4>Anja <span class="w3-opacity w3-medium">April 7, 2015, 9:12 PM</span></h4>
+            <p>Cant wait for the runway to start!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+<!-- END BLOG ENTRIES -->
+</div>
+
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-64" id="contact">
+  <h2 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">CONTACT</span></h2> <br>
+
+      <p>Lets get in touch and talk about your next project.</p>
+      <form action="/action_page.php" target="_blank">
+        <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+        <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
+        <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
+        <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
+        <button class="w3-button w3-black w3-section" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+</button>
+      </form>
+    </div>
+
+<!-- Subscribe Modal -->
+<div id="subscribe" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide">SUBSCRIBE</h2>
+      <p>Join my mailing list to receive updates on the latest blog posts and other things.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
+    </div>
+  </div>
+</div>
+
+
+<!-- End page content -->
+</div>
+<div class="w3-white w3-margin">
+  <div class="w3-container w3-padding w3-center w3-white">
+    <h4>Follow Me</h4>
+  </div>
+  <div class="w3-container w3-padding w3-center w3-white">
+  <div class="w3-container w3-xlarge w3-padding">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</div>
+<hr>
+
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-32">
+   <a href="#" class="w3-button w3-gray w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+<script>
+// Toggle between hiding and showing blog replies/comments
+document.getElementById("myBtn").click();
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap">
+
+function likeFunction(x) {
+    x.style.fontWeight = "bold";
+    x.innerHTML = "✓ Liked";
+}</script>
+</script>
+
+</body>
+</html>
